@@ -9,8 +9,9 @@ import './App.css'
 
 function App() {
   const [livros, setLivros] = useState([
-    { id: 1, titulo: "Dom Casmurro", autor: "Machado de Assis", ano: 1899 },
-    { id: 2, titulo: "Memórias Póstumas de Brás Cubas", autor: "Machado de Assis", ano: 1881 }
+    { id: 1, titulo: "A voz do silêncio", autor: "Helena P. Blavatsky", ano: 1889 },
+    { id: 2, titulo: "Os Iniciados do Fogo", autor: "Manly P. Hall", ano: 1922 },
+    { id: 3, titulo: "História secreta do mundo", autor: "Jonathan Black", ano:2007 }
   ]);
 
   return (
